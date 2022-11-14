@@ -7,8 +7,8 @@ const redis = require('redis');
 
 /* constants */
 const PORT = 3000;
-const REDIS_URL = `redis://34.143.137.177:13443`
-const REDIS_ENTERPRISE_URL = `redis://34.87.69.169:11555`
+const REDIS_URL = `redis://*.*.*.*:*`
+const REDIS_ENTERPRISE_URL = `redis://*.*.*.*:*`
 
 const app = express();
 
